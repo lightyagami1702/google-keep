@@ -16,5 +16,5 @@ const notesSchema = mongoose.Schema(
   },
   { timestamps: true }
 );
-
+//how to add data that is in bullet points
 export default mongoose.model("notes", notesSchema);

@@ -16,7 +16,7 @@ connectDB();
 app.use(express.json());
 app.use(morgan("dev"));
 //routes
-app.use("/api/v1/auth", authRoutes);
+app.use("/api/auth", authRoutes);
 //home route
 app.get("/", (req, res) => {
   res.send("Hello World");
